@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+"version": "1.0" , 
+"name": "Hello World!", 
+"description": "Basic Chrome Extension!",
+
+"icons":
+    {
+        "16": "ram.png" 
+    },
+
+"browser_action":
+    {
+    "default_icon": "ram.png",
+    "default_popup": "popup.html"
+    }
+}
